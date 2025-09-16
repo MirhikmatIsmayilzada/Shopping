@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/scss/index.css" />
+  <title>Trendyol</title>
+</head>
+<body class="page-bg">
+<main>
+  <header id="header">
+    <div class="top-bar">
+      <div class="header-container">
+        <div class="logo-section">
+          <a href="index.html" class="logo">
+            <i class="fa-solid fa-truck-fast"></i> Trendyol
+          </a>
+        </div>
+        <div class="search-section">
+          <form>
+            <div class="search-box">
+              <input type="text" placeholder="Məhsul axtar" class="search-input" />
+              <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+          </form>
+        </div>
+        <div class="user-actions">
+          <a href="#" class="action-btn"><i class="fa fa-user"></i> <span>Hesabım</span></a>
+          <a href="#" class="action-btn red" id="wishlistBtn">
+            <i class="fa fa-heart"></i> <span>Bəyəndiklərim</span>
+            <span class="wishlist-count"></span>
+          </a>
+          <a href="#" class="action-btn" id="cartBtn">
+            <i class="fa fa-shopping-cart"></i>
+            Səbətim <span class="cart-count"></span>
+          </a>
+          <div class="cart-dropdown" id="cartDropdown"></div>
+          <div class="wishlist-dropdown" id="wishlistDropdown"></div>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <ul class="nav-list">
+          <li><a href="#">Elektronika</a></li>
+          <li><a href="#">Kitap</a></li>
+          <li><a href="#">İdman</a></li>
+          <li><a href="#">Geyim</a></li>
+          <li><a href="#">Oyun konsolları</a></li>
+          <li class="dropdown">
+            <a href="#">Diğer Kategoriler <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Məişət</a></li>
+              <li><a href="#">Oyuncaq</a></li>
+              <li><a href="#">Eynək</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="products-section">
+    <div class="content-container">
+      <h3 class="section-title">Məhsullar</h3>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="img-wrap">
+            <span class="badge-sale">Endirim</span>
+            <img src="./assets/img/Questar_3_Running_Shoes_Grey_JQ5086_HM1.avif" alt="Questar 3 Running Shoes" />
+          </div>
+          <div class="info-wrap">
+            <a href="#" class="wishlist-btn"><i class="fa-regular fa-heart"></i></a>
+            <a href="#" class="product-title">Questar 3 Running Shoes</a>
+            <div class="price-wrap">
+              <span class="price-discount">70$</span>
+              <del class="price">100$</del>
+            </div>
+            <button class="add-to-cart-btn"><i class="fa fa-cart-plus"></i> Səbətə əlavə et</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="img-wrap">
+            <span class="badge-sale">Endirim</span>
+            <img src="./assets/img/F50_Messi_Elite_Firm_Ground_Cleats_White_JP5593_HM1.avif" alt="F50 Messi Elite" />
+          </div>
+          <div class="info-wrap">
+            <a href="#" class="wishlist-btn"><i class="fa-regular fa-heart"></i></a>
+            <a href="#" class="product-title">F50 Messi Elite</a>
+            <div class="price-wrap">
+              <span class="price-discount">150$</span>
+              <del class="price">200$</del>
+            </div>
+            <button class="add-to-cart-btn"><i class="fa fa-cart-plus"></i> Səbətə əlavə et</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="img-wrap">
+            <span class="badge-sale">Endirim</span>
+            <img src="./assets/img/Galaxy_7_Running_Shoes_Black_ID8760_HM1.avif" alt="Galaxy 7 Running Shoes" />
+          </div>
+          <div class="info-wrap">
+            <a href="#" class="wishlist-btn"><i class="fa-regular fa-heart"></i></a>
+            <a href="#" class="product-title">Galaxy 7 Running Shoes</a>
+            <div class="price-wrap">
+              <span class="price-discount">60$</span>
+              <del class="price">80$</del>
+            </div>
+            <button class="add-to-cart-btn"><i class="fa fa-cart-plus"></i> Səbətə əlavə et</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="img-wrap">
+            <span class="badge-sale">Endirim</span>
+            <img src="./assets/img/F50_Elite_Firm_Ground_Cleats_Black_JH7616_22_model.avif" alt="F50 Elite Black" />
+          </div>
+          <div class="info-wrap">
+            <a href="#" class="wishlist-btn"><i class="fa-regular fa-heart"></i></a>
+            <a href="#" class="product-title">F50 Elite Black</a>
+            <div class="price-wrap">
+              <span class="price-discount">130$</span>
+              <del class="price">170$</del>
+            </div>
+            <button class="add-to-cart-btn"><i class="fa fa-cart-plus"></i> Səbətə əlavə et</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
